@@ -11,7 +11,9 @@ import SwiftUI
 struct iOS_AssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductView()
+                .preferredColorScheme(.light)
+
         }
     }
 }
